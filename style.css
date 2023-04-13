@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "ABeeZee", sans-serif;
+}
+
+::selection {
+    background: #9a40ff;
+    color: #fff;
+}
+
+body {
+    background: #9a40ff;
+}
+
+section.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    padding: 1.3em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h3 {
+    font-size: 2.5em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9a40ff;
+}
+
+main .pickupContainer {
+    background: #fff;
+    padding: 1.5em;
+    margin: 1.5em;
+    border-radius: .8em;
+}
+
+main .pickupContainer .pickupContent {
+    font-size: 2.2em;
+}
+
+main .pickupContainer button {
+    background: #9a40ff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    font-size: 1.4em;
+    margin: 1em auto 0  auto;
+    border-radius: .3em;
+}
+
+footer {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > li {
+    list-style: none;
+    margin: 1.2rem;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li > a {
+    color: #fff;
+    font-size: 1.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+footer > li a:hover {
+    font-size: 2.3rem;
+ }
