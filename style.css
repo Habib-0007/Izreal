@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand');
 
 * {
     border: none;
@@ -6,7 +6,7 @@
     margin: 0;
     outline: none;
     box-sizing: border-box;
-    font-family: "ABeeZee", sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 ::selection {
