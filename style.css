@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Rubik');
 
 * {
     border: none;
@@ -6,7 +6,7 @@
     margin: 0;
     outline: none;
     box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 ::selection {
