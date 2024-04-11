@@ -2,7 +2,7 @@ var pickupBtn = document.querySelector("#getPickup");
 var pickupContent = document.querySelector(".pickupContent");
 
 pickupBtn.addEventListener("click", () => {
-	fetch("./pickups.json")
+	fetch("https://pickup-lines-api.onrender.com/pickups")
 		.then(res => res.json())
 		.then(data => {
 			let random = Math.floor(Math.random() * data.length);
