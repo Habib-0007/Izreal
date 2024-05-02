@@ -2,7 +2,7 @@ var pickupBtn = document.querySelector("#getPickup");
 var pickupContent = document.querySelector(".pickupContent");
 
 pickupBtn.addEventListener("click", () => {
-	fetch("./data.json")
+	fetch("./pickups.json")
 		.then(res => res.json())
 		.then(data => {
 			let random = Math.floor(Math.random() * data.length);
