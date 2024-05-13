@@ -2,12 +2,12 @@ var pickupBtn = document.querySelector("#getPickup");
 var pickupContent = document.querySelector(".pickupContent");
 
 pickupBtn.addEventListener("click", () => {
-	fetch("https://pickup-lines-api-alpha.vercel.app/api/pickups")
+	let random = Math.floor(Math.random() * 96);
+		
+	fetch(`https://pickup-lines-api-alpha.vercel.app/api/pickups/${random}`)
 		.then(res => res.json())
 		.then(data => {
-			let random = Math.floor(Math.random() * data.length);
-			let randomPickup = data[random].pickup;
-			pickupContent.textContent = randomPickup;
+		  pickupContent.textContent = data.pickup;
 		})
 		.catch(err => console.error(err));
 });
